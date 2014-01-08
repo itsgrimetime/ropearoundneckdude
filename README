@@ -1,0 +1,30 @@
+Mike Grimes -- Hangman Programming Challenge
+
+I chose Ruby for its easy-to-use built in libraries for interacting with json
+and issuing HTTP requests.
+
+Assuming Ruby is already installed - (I used 1.8.7) - just navigate to the directory
+with the Hangman.rb file and run `ruby Hangman.rb` to initiate a game
+and watch the bot play.
+
+As is, it only plays one game, then the program must be restarted by re-running
+`ruby Hangman.rb`.
+
+I actually never got it to win a game, but I know I'm pretty close to having a
+pretty crappy AI that wins maybe 10-30% of its games. There's a small bug in how
+the AI removes words that don't fit once we have a correct guess, but I wasn't
+able to debug it completlely before my time was up.
+
+I wasn't able to implement names, this could be fixed by just loading
+both the /usr/share/dict/words file along with the /usr/share/dict/propernames
+file.
+
+Final thing I know that I forgot was the use of apostrophes in words.
+
+While I know that I was required to allot an 8-hour section of time for the challenge,
+but a family situation that I had to tend to arose after about two hours into
+the challenge, and I lost about two hours of time that I feel like would have
+allowed me to debug a lot of these issues, and implement a few more edge cases.
+I hope you will take this into consideration when reviewing my solution.
+
+All that aside, thanks for the fun coding challenge!
